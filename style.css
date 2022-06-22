@@ -1,0 +1,160 @@
+body{
+    background-color:white;
+    margin:70px;
+    margin-top: 30px;
+}
+.video{
+    height:180px;
+    width:850px;
+    display:flex;
+   
+    justify-content: center;
+}
+.gif{
+    height:150px;
+    width:600px;
+}
+h1{
+    color:darkslategray;
+}
+.im{
+    clip-path: circle(50.0% at 50% 50%);
+    position:relative;
+    left:50px;
+    top:10px;
+    border:2px solid darkslategray;
+    padding:3px;
+    border-radius: 50%;
+    margin:2px;
+}
+.text{
+    position:relative;
+     right:40px;
+     bottom:30px;
+     font-family: 'Anek Bangla', cursive;
+     
+    
+    
+}
+.link{
+    display:inline-block;
+    color:black;
+    text-decoration: underline;
+}
+
+.image{
+    float:right;
+}
+.about{
+    clear: right;
+    font-family: 'Babylonica', cursive;
+}
+h3{
+    color:darkgreen;
+    
+}
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.skill{
+    height:13px;
+    width:250px;
+    border:1px solid black;
+    border-radius: 4px;
+    display:inline-block;
+}
+
+.c{
+    height:13px;
+    width:0px;
+    border-radius: 4px;
+    animation:first 8s ease 1 forwards 6s;
+}
+.cc{
+    height:13px;
+    width:0px;
+    border-radius: 4px;
+    animation:second 8s ease 1 forwards 6s;
+}
+.html{
+    height:13px;
+    width:0px;
+    border-radius: 4px;
+    animation:third 8s ease 1 forwards 6s;
+}
+.css{
+    height:13px;
+    width:0px;
+    border-radius: 4px;
+    animation:fourth 8s ease 1 forwards 6s;
+}
+.dsa{
+    height:13px;
+    width:0px;
+    border-radius: 4px;
+    animation:fifth 8s ease 1 forwards 6s;
+}
+@keyframes first{
+    0%{
+        background-color:darkgrey;
+        width:0px;
+    }
+ 
+    
+    100%{
+        background-color:grey;
+        width:200px;
+    }
+}
+@keyframes second{
+    0%{
+        background-color:darkgrey;
+        width:0px;
+    }
+   
+    100%{
+        background-color:grey;
+        width:125px;
+    }
+}
+@keyframes third{
+    0%{
+        background-color:darkgrey;
+        width:0px;
+    }
+    
+    100%{
+        background-color:grey;
+        width:200px;
+    }
+}
+@keyframes fourth{
+    0%{
+        background-color:darkgrey;
+        width:0px;
+    }
+    100%{
+        background-color:grey;
+        width:175px;
+    }
+}
+@keyframes fifth{
+    0%{
+        background-color:darkgrey;
+        width:0px;
+    }
+    100%{
+        background-color:grey;
+        width:20px;
+    }
+}
+.bottom{
+    color:black;
+    text-align: center;
+}
+.ajikya{
+    display:inline-block;
+    color:darkgreen;
+}
