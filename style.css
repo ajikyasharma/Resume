@@ -2,10 +2,13 @@ body{
     background-color:white;
     margin:70px;
     margin-top: 30px;
+     margin-right: 400px;
+    margin-left: 300px;;
+    font-size:x-large;
 }
 .video{
     height:180px;
-    width:850px;
+    width:100%;
     display:flex;
    
     justify-content: center;
