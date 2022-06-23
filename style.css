@@ -1,8 +1,8 @@
 body{
     background-color:white;
-    margin:70px;
+    margin:150px;
     margin-top: 30px;
-     margin-right: 400px;
+     margin-right: 300px;
     margin-left: 300px;;
     font-size:x-large;
 }
@@ -160,4 +160,57 @@ h3{
 .ajikya{
     display:inline-block;
     color:darkgreen;
+}
+@media screen and (max-width:550px){
+        body{
+            margin-left:0px;
+            margin-right:0px;
+            margin:0px;
+            margin-top:50px;
+            font-size: smaller;
+            padding: 20px;
+        }
+     .flex-container{
+        flex-direction: column;
+        justify-content: space-around;
+     }
+     .icon{
+        clear:right;
+     }
+     .text{
+        position:relative;
+         right:30px;
+         bottom:30px;
+         font-family: 'Anek Bangla', cursive;  
+    }
+    .im{
+        clip-path: circle(50.0% at 50% 50%);
+        position:relative;
+         left:10px; 
+        top:10px;
+        border:2px solid darkslategray;
+        padding:3px;
+        border-radius: 50%;
+        margin:2px;
+        height:180px;
+    
+    }
+    .image{
+        float:none;
+       
+   }
+   .gif{
+    height:120px;
+    width:400px;
+   }
+}
+@media screen and (max-width:1500px){
+    body{
+        margin-left:100px;
+        margin-right:100px;
+        margin:100px;
+        margin-top:50px;
+        font-size: smaller;
+        
+    }
 }
